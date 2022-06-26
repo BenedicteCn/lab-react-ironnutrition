@@ -15,7 +15,7 @@ function App() {
 
       <Divider>Food List</Divider>
 
-      <Row style={{ width: '100%', justifyContent: 'center' }}>
+      <Row gutter={[16, 16]}>
         {/* Render the list of Food Box components here */}
       </Row>
     </div>
